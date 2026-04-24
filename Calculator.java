@@ -13,8 +13,8 @@ public class Calculator {
         }
     }
     public static void main(String[] args){
-        int num1 = 2;
-        int num2  = 4;
+        int num1 = 3;
+        int num2  = 6;
         char operator = '*';
         int result = calculate(num1,num2,operator);
         System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
